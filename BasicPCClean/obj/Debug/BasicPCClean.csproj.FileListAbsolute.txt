@@ -1,0 +1,14 @@
+S:\Niall\Documents\RandomCode\C#\BasicPCClean\BasicPCClean\bin\Debug\BasicPCClean.exe.config
+S:\Niall\Documents\RandomCode\C#\BasicPCClean\BasicPCClean\bin\Debug\BasicPCClean.exe
+S:\Niall\Documents\RandomCode\C#\BasicPCClean\BasicPCClean\bin\Debug\BasicPCClean.pdb
+S:\Niall\Documents\RandomCode\C#\BasicPCClean\BasicPCClean\bin\Debug\System.Management.Automation.dll
+S:\Niall\Documents\RandomCode\C#\BasicPCClean\BasicPCClean\obj\Debug\BasicPCClean.frmMain.resources
+S:\Niall\Documents\RandomCode\C#\BasicPCClean\BasicPCClean\obj\Debug\BasicPCClean.Properties.Resources.resources
+S:\Niall\Documents\RandomCode\C#\BasicPCClean\BasicPCClean\obj\Debug\BasicPCClean.csproj.GenerateResource.Cache
+S:\Niall\Documents\RandomCode\C#\BasicPCClean\BasicPCClean\obj\Debug\BasicPCClean.exe
+S:\Niall\Documents\RandomCode\C#\BasicPCClean\BasicPCClean\obj\Debug\BasicPCClean.pdb
+S:\Niall\Documents\RandomCode\C#\BasicPCClean\BasicPCClean\bin\Debug\BasicPCClean.exe.manifest
+S:\Niall\Documents\RandomCode\C#\BasicPCClean\BasicPCClean\bin\Debug\BasicPCClean.application
+S:\Niall\Documents\RandomCode\C#\BasicPCClean\BasicPCClean\obj\Debug\BasicPCClean.csprojResolveAssemblyReference.cache
+S:\Niall\Documents\RandomCode\C#\BasicPCClean\BasicPCClean\obj\Debug\BasicPCClean.exe.manifest
+S:\Niall\Documents\RandomCode\C#\BasicPCClean\BasicPCClean\obj\Debug\BasicPCClean.application

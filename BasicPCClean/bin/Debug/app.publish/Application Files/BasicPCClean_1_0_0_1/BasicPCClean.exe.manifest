@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BasicPCClean.exe" version="1.0.0.1" publicKeyToken="3d5f017bf3e56ca8" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BasicPCClean" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BasicPCClean.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Management.Infrastructure" version="1.0.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Management.Infrastructure.Native" version="1.0.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="amd64" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BasicPCClean.exe" size="13752">
+      <assemblyIdentity name="BasicPCClean" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rPf2K4Z8eDZI97ZHWYzChtGDafErGBLAgW1/dgpj9FM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Management.Automation.dll" size="1623360">
+      <assemblyIdentity name="System.Management.Automation" version="3.0.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>XlWizivCz1RdX9YNMsEd6rRCZXHaPdFPUU98XCOHdWw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BasicPCClean.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=NIALL-PC\niall" issuerKeyHash="61860a2614e03d7bf0dfb0870cdb997bf3adc47e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RrYc4k/PIDgYOioJUxXtRuCr7nvrEMn4BmQyBa3GAcU=</DigestValue></Reference></SignedInfo><SignatureValue>AnHwYQ3xh+jPGsOvNdImZK2fGR2MdUpl1yqxnnfxGs546Uu19RzoDA9a8fDUXFhhnpqj7vwfdwS7jXMCMehr7o2FFihzrcfSd+/QIGDXOiWo0GnOmqs0Vbw66HeLT62grejxoI5tyayvkiysigdBTFtWdmTTx/qaeVv1KG/EUOA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rWIWLlg+MFCLBiNxDmMozPbdC5kpXG9i0J0k4LN2RfuznH6p2nGEVVALkXbyi6Z5uBcCnaCDGyD9+2H4/cJPbyg3kdWNp3nh3mIe1xq39wEumj9cPI4608Je7Iuv0MtI/F69SmHXtHQIL+Wp7qem8oaCPJqpfqlK/cCVeNqNep0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c501c6ad05326406f8c910eb7beeabe046ed1553092a3a183820cf4fe21cb646" Description="" Url=""><as:assemblyIdentity name="BasicPCClean.exe" version="1.0.0.1" publicKeyToken="3d5f017bf3e56ca8" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NIALL-PC\niall</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5k9KMqN1ex+UvDWvCf77dWtV3ijXi6+yhi5cqx6MSk8=</DigestValue></Reference></SignedInfo><SignatureValue>kRGRUexX8mB0ZEXs6EnEmIKlxDWmU2KwIFj6YlQpXkwyejjOE73L46NvWJvEt3uC6mob9WZuplDJPoBhx2Wx0r/EFFt0kQlLr1Xq9n+STEptJtL6JMEMKmucii2UPKBvIynhn54+ft1+4bha+qqrZJqIhyO2DPXCytwRK1+f/2c=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rWIWLlg+MFCLBiNxDmMozPbdC5kpXG9i0J0k4LN2RfuznH6p2nGEVVALkXbyi6Z5uBcCnaCDGyD9+2H4/cJPbyg3kdWNp3nh3mIe1xq39wEumj9cPI4608Je7Iuv0MtI/F69SmHXtHQIL+Wp7qem8oaCPJqpfqlK/cCVeNqNep0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQUK7B4B+TcZtK0fcJJnf+xjANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwATgBJAEEATABMAC0AUABDAFwAbgBpAGEAbABsMB4XDTE3MDUxNTIxMzExOFoXDTE4MDUxNjAzMzExOFowJzElMCMGA1UEAx4cAE4ASQBBAEwATAAtAFAAQwBcAG4AaQBhAGwAbDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEArWIWLlg+MFCLBiNxDmMozPbdC5kpXG9i0J0k4LN2RfuznH6p2nGEVVALkXbyi6Z5uBcCnaCDGyD9+2H4/cJPbyg3kdWNp3nh3mIe1xq39wEumj9cPI4608Je7Iuv0MtI/F69SmHXtHQIL+Wp7qem8oaCPJqpfqlK/cCVeNqNep0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQB76fC+T5ck2IS9ANN6s8oM9k3/nUIQbbWmGXPE3RRsGwNngCI8PLkXiCQ+mcM0+RZL7blLK5itlMW/cn9lEzX3KpWyYxYY1IQ0XsFx6b/0lurmH8OskrGn6dGHreG6O2BBylh68UVeXce/FCRA7MDcHF9/iWKcj/sfOO/45hGIPQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
